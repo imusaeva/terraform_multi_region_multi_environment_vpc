@@ -20,7 +20,7 @@ We have to create tfvars files with variables for environment and run terraform 
 ```
 terraform init -var-file=dev.tfvars
 ```
-# Folfer structure
+# Folder structure
 We have to have 4 different working directories for each environment (with all the configuration files to each environment). 
 And run 
 ```
