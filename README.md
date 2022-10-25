@@ -11,7 +11,7 @@ This repository has a terraform code for VPC in multiple regions and for multipl
 * Create Route Tables and Subnet Associations [aws_route Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table)
 * Create Internet Gateway and NAT Gateway and associated them with public and private subnets [NAT Gateway Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/nat_gateway) and [Internet Gateway Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway)
 
-We need to create VPC in us-east-1, and us-west-2 regions.
+We will create VPC in us-east-1, and us-west-2 regions.
 And also create Dev and Qa versions using File or Folder Structures.
 
 # File structure 
